@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'llwp'
+
+port, folder = ARGV
+
+XdgWrap.run port,folder
